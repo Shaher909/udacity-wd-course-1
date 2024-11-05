@@ -1,6 +1,31 @@
+@import url("index.css");
 @import url("blog-post.css");
 
-#search-icon{
+.icon{
     width:20px;
     height:20px;
 }
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #header > * {
+        border: 1px solid red;
+    }
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+    #footer > * {
+        border: 1px solid red;
+        margin: 15px
+    }
