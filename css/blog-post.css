@@ -1,4 +1,39 @@
 .blog-image {
-    width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
 }
+
+#blog-container {
+  display: grid;
+  grid-template-columns: 80vw;
+  grid-template-rows: 20vh auto 15vh;
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+#blog-container > * {
+  padding: 5vh 0px;
+}
+
+#blog-content {
+  display: grid;
+  grid-template-columns: 50vw 23vw;
+  grid-gap: 25px;
+  justify-content: center;
+}
+
+#side-bar {
+  border-left: #333333 1px solid;
+  padding-left: 8px;
+}
+
+#about-author {
+  padding: 10px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+}
+
+/* #blog-content > * {
+  border: 1px solid #333333;
+  border-radius: 10px;
+} */

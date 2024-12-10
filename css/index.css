@@ -10,7 +10,7 @@
   padding: 5vh 0px;
 }
 
-#content {
+#home-content {
   display: grid;
   grid-template-columns: repeat(2, 35%);
   grid-auto-rows: minmax(20vh, auto);
@@ -18,16 +18,16 @@
   justify-content: center;
 }
 
-#content > * {
+#home-content > * {
   border: 1px solid #333333;
   border-radius: 10px;
 }
 
-#content .blog-widget {
+#home-content .blog-widget {
   padding: 10px;
 }
 
-#content .blog-type {
+#home-content .blog-type {
   font-style: italic;
   font-weight: bold;
   color: green;
