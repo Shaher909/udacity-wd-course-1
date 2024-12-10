@@ -1,31 +1,36 @@
 @import url("index.css");
 @import url("blog-post.css");
 
-.icon{
-    width:20px;
-    height:20px;
+.icon {
+  width: 42px;
+  height: 42px;
 }
 
-#header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 0 12px 0 12px;
 }
 
-    #header > * {
-        border: 1px solid red;
-    }
+/* #header > * {
+  border: 1px solid red;
+} */
 
-
-#footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+#header a {
+  font-size: 24px;
 }
 
-    #footer > * {
-        border: 1px solid red;
-        margin: 15px
-    }
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+#footer > * {
+  margin: 15px;
+}
