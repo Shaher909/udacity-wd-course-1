@@ -12,10 +12,20 @@
 
 #home-content {
   display: grid;
-  grid-template-columns: repeat(2, 35%);
+  grid-template-columns: repeat(1, 50%);
   grid-auto-rows: minmax(20vh, auto);
   grid-gap: 25px;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+  #home-content {
+    display: grid;
+    grid-template-columns: repeat(2, 35%);
+    grid-auto-rows: minmax(20vh, auto);
+    grid-gap: 25px;
+    justify-content: center;
+  }
 }
 
 #home-content > * {

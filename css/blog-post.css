@@ -17,27 +17,37 @@
 
 #blog-content {
   display: grid;
-  grid-template-columns: 50vw 23vw;
+  grid-template-columns: 50vw;
   grid-gap: 25px;
   justify-content: center;
 }
 
-#blog-body {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  align-items: center;
-}
+@media (min-width: 700px) {
+  /* css rules that apply when the minimum width of the screen is 700 pixels */
+  #blog-content {
+    display: grid;
+    grid-template-columns: 50vw 23vw;
+    grid-gap: 25px;
+    justify-content: center;
+  }
 
-#side-bar {
-  border-left: #333333 1px solid;
-  padding-left: 8px;
-}
+  #blog-body {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
 
-#about-author {
-  padding: 10px;
-  border: 1px solid #333333;
-  border-radius: 10px;
+  #side-bar {
+    border-left: #333333 1px solid;
+    padding-left: 8px;
+  }
+
+  #about-author {
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+  }
 }
 
 /* #blog-content > * {
