@@ -50,6 +50,16 @@
   }
 }
 
+#author-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
 /* #blog-content > * {
   border: 1px solid #333333;
   border-radius: 10px;
