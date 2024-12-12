@@ -43,10 +43,16 @@
   color: green;
 }
 
-#content .date {
+#home-content .date {
   font-size: 14px;
   font-weight: bold;
   color: #333333;
+}
+
+.blog-widget img {
+  display: block;
+  width: 40%;
+  height: auto;
 }
 
 u {
